@@ -11,17 +11,18 @@
 #include "LinearMath/btQuickprof.h"
 #include "LinearMath/btIDebugDraw.h"
 
+#include <iostream>
 #include <stdio.h> //printf debugging
 #include "LinearMath/btConvexHull.h"
 #include "BulletSoftBody/btSoftBodyHelpers.h"
 
 
-#include "BulletDefrac/btDefracDynamicsWorld.h"
-#include "BulletDefrac/btDefracBodyComponent.h"
-#include "BulletDefrac/btDefracBody.h"
-#include "BulletDefrac/btMaterial.h"
-#include "BulletDefrac/btSpring.h"
-#include "BulletDefrac/btDefracUtils.h"
+#include "btDefracDynamicsWorld.h"
+#include "btDefracBodyComponent.h"
+#include "btDefracBody.h"
+#include "btMaterial.h"
+#include "btSpring.h"
+#include "btDefracUtils.h"
 
 #include "GL_ShapeDrawer.h"
 #include "GLDebugFont.h"
